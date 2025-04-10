@@ -1,0 +1,51 @@
+body{
+  /* background-color: aqua; */
+  overflow-x: hidden;
+}
+.todo_in{
+  position:relative;
+  left:30px;
+  bottom:80px;
+}
+.App{
+  position: relative;
+  /* z-index: 2; higher than video */
+  color: white;
+} 
+h1{
+  font-weight: 500;
+  font-size:2.5rem;
+  text-align:centre;
+
+  color: rgb(96, 211, 219); /* Optional: better contrast */
+   /* Optional: better contrast */
+  z-index:3;
+  position:relative;
+  left: 45%;
+  top:50px;
+}
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 1 ;
+   
+}
+.area {
+  z-index: 3;
+  position: relative;
+  left:25%;
+  top:200px;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  height:50%;
+  width:50%;
+}
+.area:hover{
+  background-color: rgba(0, 0, 0, 0.9); /* Optional: better contrast */
+ 
+}
