@@ -1,9 +1,5 @@
 import React from "react";
 import "./App.css";
-// import Navbar from "./components/Navbar";
-// import Toolbar from "./components/Toolbar";
-// import Box from '@mui/material/Box';
-// import TextField from '@mui/material/TextField';
 function App() {
   const [todos, setTodos] = React.useState([]); 
   // Creating hooks.
